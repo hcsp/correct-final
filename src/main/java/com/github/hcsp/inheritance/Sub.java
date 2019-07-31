@@ -5,4 +5,5 @@ public class Sub extends Base {
     public void sayHello() {
         System.out.println("我是子类！");
     }
+
 }
