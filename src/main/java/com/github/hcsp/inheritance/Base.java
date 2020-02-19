@@ -1,7 +1,9 @@
 package com.github.hcsp.inheritance;
 
-public final class Base {
-    public final void sayHello() {
-        System.out.println("我是父类！");
+import static java.lang.System.*;
+
+public class Base {
+    public void sayHello() {
+        out.println("我是父类！");
     }
 }
